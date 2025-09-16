@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <style>
+    body {
+      opacity: 0;
+      transform: translateY(-20px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    body.loaded {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+  <script type="module" src="src/main.js"></script>
+  
+</head>
+<body>
+  <section class="page-wrapper">
+    <img class="pre-launch__logo" src="src/assets/images/logo.svg" alt="">
+    <div class="pre-launch__hero-section"></div>
+    <header>
+      <h1>WE'RE COMING SOON</h1>
+    </header>
+
+    <p class="pre-launch__body-text">
+      Hello fellow shoppers! We're currently building our new fashion store. 
+      Add your email below to stay up-to-date with announcements and our launch deals.
+    </p>
+    <div class="pre-launch__email-input">
+      <input type="email" placeholder="Email Address">
+      <button>tite</button>
+    </div>
+  </section>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+</body>
+</html>
