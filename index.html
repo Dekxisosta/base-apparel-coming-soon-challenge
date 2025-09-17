@@ -12,31 +12,37 @@
       transform: translateY(-20px);
       transition: opacity 0.8s ease, transform 0.8s ease;
     }
-
     body.loaded {
       opacity: 1;
       transform: translateY(0);
     }
   </style>
   <script type="module" src="src/main.js"></script>
-  
 </head>
 <body>
   <section class="page-wrapper">
+    <img class="pre-launch__bg" src="src/assets/images/bg-pattern-desktop.svg" alt="">
     <img class="pre-launch__logo" src="src/assets/images/logo.svg" alt="">
     <div class="pre-launch__hero-section"></div>
-    <header>
-      <h1>WE'RE COMING SOON</h1>
-    </header>
-
-    <p class="pre-launch__body-text">
-      Hello fellow shoppers! We're currently building our new fashion store. 
-      Add your email below to stay up-to-date with announcements and our launch deals.
-    </p>
-    <div class="pre-launch__email-input">
-      <input type="email" placeholder="Email Address">
-      <button>tite</button>
-    </div>
+    <section class="pre-launch__wrapper">
+      <h1 class="pre-launch__header-txt">WE'RE <br> <strong>COMING <br> SOON</strong></h1>
+      <p class="pre-launch__body-txt">
+        Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.
+      </p>
+      <form novalidate class="pre-launch__email-input-form">
+        <input
+          class="pre-launch__email-input" 
+          type="email" 
+          name="email" 
+          placeholder="Email Address" 
+          required
+        >
+        <button class="pre-launch__email-submit" type="submit"></button>
+        <div class="pre-launch__error-svg email-error" alt=""></div>
+        <p class="pre-launch__email-error email-error">Please provide a valid email</p>
+      </form>
+    </section>
   </section>
   <footer>
     <p class="attribution">

@@ -18,4 +18,10 @@
     hsl(0, 80%, 86%),
     hsl(0, 74%, 74%)
   );
+
+  --gradient-pink-light: linear-gradient(
+    135deg,
+    color-mix(in srgb, hsl(0, 80%, 86%) 80%, white 50%),
+    color-mix(in srgb, hsl(0, 74%, 74%) 80%, white 50%)
+  );
 }
