@@ -14,12 +14,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+![](./preview.png)
 
 ### Built with
 Markup / Structure: HTML5, Semantic HTML, BEM
