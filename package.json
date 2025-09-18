@@ -1,6 +1,7 @@
 {
   "devDependencies": {
-    "vite": "^7.1.5"
+    "vite": "^7.1.5",
+    "vite-plugin-gh-pages": "^1.0.1"
   },
   "scripts": {
     "dev": "vite",

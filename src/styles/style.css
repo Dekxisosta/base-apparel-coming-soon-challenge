@@ -4,3 +4,4 @@
 @import './_base.css';
 @import './_layout.css';
 @import '../component/_component.css';
+@import './utilities.css';

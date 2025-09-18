@@ -30,17 +30,18 @@
         Hello fellow shoppers! We're currently building our new fashion store. 
         Add your email below to stay up-to-date with announcements and our launch deals.
       </p>
-      <form novalidate class="pre-launch__email-input-form">
+      <form novalidate id="form" class="pre-launch__email-input-form">
         <input
+          id="email"
           class="pre-launch__email-input" 
           type="email" 
           name="email" 
           placeholder="Email Address" 
           required
         >
-        <button class="pre-launch__email-submit" type="submit"></button>
-        <div class="pre-launch__error-svg email-error" alt=""></div>
-        <p class="pre-launch__email-error email-error">Please provide a valid email</p>
+        <button id="submit-btn" class="pre-launch__email-submit" type="submit"></button>
+        <div id="error-svg" class="pre-launch__error-svg hidden" alt=""></div>
+        <p id="error-txt" class="pre-launch__email-error hidden">Please provide a valid email</p>
       </form>
     </section>
   </section>

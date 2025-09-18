@@ -109,10 +109,7 @@
 .pre-launch__email-input::placeholder{
     color: var(--clr-pink-400);
 }
-.pre-launch__email-input:invalid{
-    border-color: var(--clr-red-500);
-}
-.pre-launch__email-input:invalid:focus{
+.pre-launch__email-input.error{
     border-color: var(--clr-red-500);
 }
 .pre-launch__email-submit{
@@ -143,7 +140,7 @@
     box-shadow: 1px 15px 30px 1px var(--clr-pink-400);
 }
 .pre-launch__email-error{
-    display: none;
+    display: block;
     color:var(--clr-red-500);
     font-weight: 400;
     padding-left: 25px;
@@ -151,11 +148,8 @@
     top: 100%;
     margin-top: 10px;
 }
-.pre-launch__email-input:invalid ~ .pre-launch__email-error{
-    display: block;
-}
 .pre-launch__error-svg{
-    display: none;
+    display: block;
     position: absolute;
     align-self: center;
     right: 0;
@@ -164,7 +158,4 @@
     background-repeat: no-repeat;
     padding: 14px;
     padding-right: 120px;
-}
-.pre-launch__email-input:invalid ~ .pre-launch__error-svg{
-    display: block;
 }
